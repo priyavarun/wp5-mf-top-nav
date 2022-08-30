@@ -16,6 +16,7 @@ module.exports = {
     liveReload: true,
     historyApiFallback: true,
   },
+  name: "top-nav",
   module: {
     rules: [
       {
@@ -47,12 +48,10 @@ module.exports = {
       shared: {
         "react": {
           singleton: true,
-          eager: true,
           requiredVersion: "18.2.0"
         },
         "react-dom": {
           singleton: true,
-          eager: true,
           requiredVersion: "18.2.0"
         }
       }
