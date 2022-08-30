@@ -41,7 +41,9 @@ module.exports = {
       name: "topNavigation",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./TopNav": "./src/App.js"
+      },
       shared: {
         "react": {
           singleton: true,
